@@ -1,0 +1,80 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "Greetings", "what's up?", "how are you?"],
+      "responses": ["Hello! Welcome to Esoft Metro Campus. How can I assist you today?", "Hi there! How can I help you?", "Hey! How can I assist you today?"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "name", "what's your name", "who are you", "what should I call you"],
+      "responses": ["You can call me E-Bot", "I'm E-Bot, your virtual assistant at Esoft Metro Campus", "I'm your virtual assistant, E-Bot"]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["what courses are available", "how many courses are offered", "what programs are offered"],
+      "responses": ["Esoft Metro Campus offers a wide range of courses including diploma programs, professional certifications, and degree programs in IT, Business, Design, and more. Would you like more information on a specific course?"]
+    },
+    {
+      "tag": "courseDuration",
+      "patterns": ["how long are the courses", "what is the duration of the courses", "how many years do the courses take"],
+      "responses": ["The duration of our courses varies depending on the program. Diploma programs typically range from 6 months to 1 year, while degree programs can take 2 to 4 years to complete."]
+    },
+    {
+      "tag": "Location",
+      "patterns": ["where is Esoft Metro Campus located", "what is the address of Esoft Metro Campus", "where can I find Esoft Metro Campus"],
+      "responses": ["Esoft Metro Campus is located at [Insert Address Here], Colombo, Sri Lanka. You can find us near [Landmark]."]
+    },
+    {
+      "tag": "semesters",
+      "patterns": ["how many semesters are there in a year", "how many semesters does the academic year have"],
+      "responses": ["Our academic year typically consists of three semesters: January to April, May to August, and September to December."]
+    },
+    {
+      "tag": "semDuration",
+      "patterns": ["how long is a semester", "what is the duration of a semester"],
+      "responses": ["Each semester at Esoft Metro Campus lasts approximately 4 months."]
+    },
+    {
+      "tag": "studentRequirements",
+      "patterns": ["what are the requirements for admission", "what are the entry requirements"],
+      "responses": ["Admission requirements vary depending on the program. Generally, applicants need to have completed their O/Ls or A/Ls and meet specific subject requirements. Additionally, English proficiency may be required for certain programs."]
+    },
+    {
+      "tag": "classes",
+      "patterns": ["how many classes are there in a day", "what is the class schedule like"],
+      "responses": ["The number of classes per day may vary depending on the program and schedule. Typically, students have 3 to 4 classes per day, each lasting around 1.5 to 2 hours."]
+    },
+    {
+      "tag": "teachingStyle",
+      "patterns": ["what is the teaching style at Esoft Metro Campus", "how are classes conducted"],
+      "responses": ["At Esoft Metro Campus, we focus on interactive learning with a blend of lectures, workshops, and hands-on projects. Our instructors are industry experts who provide practical insights into each subject."]
+    },
+    {
+      "tag": "exams",
+      "patterns": ["what are the exams like", "how are exams conducted"],
+      "responses": ["Exams at Esoft Metro Campus may include written exams, practical assessments, presentations, and projects. The assessment methods vary depending on the course and subject."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["what are your hours of operation", "when is Esoft Metro Campus open"],
+      "responses": ["Esoft Metro Campus is open from Monday to Friday, from 8:00 AM to 6:00 PM. Our administrative offices are also open on Saturdays from 9:00 AM to 1:00 PM."]
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["what facilities does Esoft Metro Campus provide", "what are the facilities for students"],
+      "responses": ["Esoft Metro Campus provides state-of-the-art facilities including computer labs, libraries, study areas, and recreational spaces. Additionally, we offer career counseling services, internship opportunities, and access to online resources."]
+    },
+    {
+      "tag": "fee",
+      "patterns": ["what is the fee structure", "how much are the course fees"],
+      "responses": ["Course fees at Esoft Metro Campus vary depending on the program and duration. We offer flexible payment plans and financial assistance options for eligible students. For detailed information on course fees, please contact our admissions office."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a Good Day", "bye", "see ya"],
+      "responses": ["Thank you for visiting Esoft Metro Campus. If you have any further questions, feel free to ask. Goodbye!", "Goodbye! Have a great day ahead.", "See you later!"]
+    }
+  ]
+}
+    

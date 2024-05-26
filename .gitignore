@@ -1,0 +1,2 @@
+# Ignore node_modules in the frontend
+client/node_modules/
